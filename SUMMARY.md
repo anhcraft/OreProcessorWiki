@@ -1,24 +1,15 @@
 # Table of contents
 
-* [👋 Welcome to A Product](README.md)
+* [👋 Welcome to OreProcessor](README.md)
+* [✅ Discord](https://discord.com/invite/gPJtP4yJgc)
 
-## Overview
+## Configuration
 
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
+* [📦 Main Configuration](configuration/main-configuration/README.md)
+  * [Add a new ore](configuration/main-configuration/add-a-new-ore.md)
+* [🚀 Upgrade Configuration](configuration/upgrade-configuration.md)
+* [📌 GUI Configuration](configuration/gui-configuration.md)
 
-## Product Guides
+## Developer
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
-
-## Fundamentals
-
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
-
-## Use Cases
-
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
+* [⚙ API](developer/api.md)
