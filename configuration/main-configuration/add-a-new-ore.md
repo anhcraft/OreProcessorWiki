@@ -127,3 +127,7 @@ ores:
 ```
 
 Important note: To give 40% amethyst\_block, you have to put 60% air. The plugin will ignore air before putting it into storage. If you do not define 60% air, the plugin will think that amethyst\_block has 30 weight, and because there is no other item, it has a chance of 100%.
+
+Remember, VIP and MVP group requires permission. Read: [permissions.md](../../overview/permissions.md "mention") for further information.
+
+Permission for VIP group is `ore.transform.amethyst.vip`, and for MVP is `ore.transform.amethyst.mvp`

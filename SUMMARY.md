@@ -3,6 +3,12 @@
 * [👋 Welcome to OreProcessor](README.md)
 * [✅ Discord](https://discord.com/invite/gPJtP4yJgc)
 
+## Overview
+
+* [Commands](overview/commands.md)
+* [Permissions](overview/permissions.md)
+* [Placeholders](overview/placeholders.md)
+
 ## Configuration
 
 * [📦 Main Configuration](configuration/main-configuration/README.md)
