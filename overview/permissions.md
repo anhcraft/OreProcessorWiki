@@ -1,6 +1,16 @@
 # Permissions
 
-Command permissions exist but will not be mentioned here because they are rarely used. Contact me if you want to know!\
+Some important command permissions:
+
+oreprocessor.inspect to use /ore inspect
+
+oreprocessor.stats.server to use /ore stats server
+
+oreprocessor.stats.player to use /ore stats player
+
+Command /ore to open the menu does not require permission
+
+Other command permissions are rarely used so I do not mention them there.\
 \
 Some important permissions for players:&#x20;
 
