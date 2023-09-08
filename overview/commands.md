@@ -10,10 +10,14 @@
 /ore upgrade capacity set \<player> \<ore> \<amount>\
 /ore upgrade capacity add  \<player> \<ore> \<amount>\
 _To upgrade all ore, set \<ore> to \*_\
-_The command supports offline player_\
+_The commands support offline player_\
+\
+/ore add \<player> \<ore> \<material> \<amount> \[\<force: true/false>]: add item to an ore storage \
+/ore subtract \<player> \<ore> \<material> \<amount>: take item from an ore storage\
+_The commands support offline player_\
 \
 /ore stats server \<ore query>: view server statistics\
 /ore stats player \<player> \<ore query>: view player statistics\
-To select multiple ores, use commas, e.g: `iron,gold,diamond`\
-To select all ores, use \*\
-_The command supports offline player_
+_To select multiple ores, use commas, e.g: `iron,gold,diamond`_\
+_To select all ores, use \*_\
+_The commands support offline player_
