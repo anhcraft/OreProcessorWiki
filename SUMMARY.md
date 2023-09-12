@@ -8,6 +8,7 @@
 * [Commands](overview/commands.md)
 * [Permissions](overview/permissions.md)
 * [Placeholders](overview/placeholders.md)
+* [Logging](overview/logging.md)
 
 ## Configuration
 
