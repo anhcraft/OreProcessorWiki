@@ -75,7 +75,7 @@ default:
 
 ## Advanced transformation
 
-In fact, Ore Processor uses "weight" system. The weight of each product is used to determine the chance. Percentage character (%) is **optional** and does not change the calculation.\
+In fact, Ore Processor uses "weight" system. The weight of each product is used to determine the chance. Percentage character (%) is **optional** and does not affect the calculation.\
 \
 For example, amethyst\_cluster has a weight of 100, amethyst\_block has a weight of 200, and amethyst\_shard has a weight of 500.\
 \

@@ -3,7 +3,10 @@
 /ore: open main menu\
 /ore inspect \<player>: inspect primary data of an online/offline player\
 /ore reload: reload the plugin\
-/ore docs: generate offline documentation
+/ore docs: generate offline documentation\
+\
+/ore store hand: Store the item in hand to the suitable ore storage\
+/ore store all: Store all appropriate items in the inventory to suitable ore storages
 
 /ore upgrade throughput set \<player> \<ore> \<amount>\
 /ore upgrade throughput add \<player> \<ore> \<amount>\

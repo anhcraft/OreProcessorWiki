@@ -15,7 +15,7 @@ allowed-products:
   - netherite_block
 </code></pre>
 
-blocks: define a list of whitelisted blocks. A block can only be a specific ore.
+blocks: define a list of whitelisted blocks. A block can only belong to a single ore configuration.
 
 allowed-products: whitelist additional items to the storage. By default, only products mentioned in the transform part are allowed. This option is recommended if you are going to use quick-craft feature.
 
@@ -25,9 +25,9 @@ drop-on-full-storage: Enable this option to drop items from blocks when the stor
 
 enable-mining-stat-on-full-storage: Enable this option to increase mining stat when storage is full. **This should only be enabled if drop-on-full-storage is set to true. Otherwise, the player can increase this stat infinitely.**
 
-disable-offline-processing: Turn off ore processing when the player goes away. Be fine to turn this on since offline processing does not affect performance at all.
+disable-offline-processing: Turn off ore processing when the player goes away. It is recommended to turn this on since offline processing does not affect performance at all.
 
-process-silk-touch-items: By default, the plugin ignores silk-touch items. If you want it to check and process them, set to true.
+process-silk-touch-items: By default, the plugin ignores silk-touch items. If you want it to check and process them, set it to true.
 
 ## Accessibility settings
 
@@ -47,7 +47,7 @@ If the records exceed the limit, the plugin will remove older ones.\
 This removal does not affect all-time cumulative statistics.
 
 max-server-records: Control the maximum number of server statistics records\
-Works the same as max-player-records
+_Works the same as max-player-records_
 
 ## Other settings
 
@@ -60,7 +60,10 @@ If you leave it empty, it implies all worlds are whitelisted.\
 This feature can help improve server performance by specifying one or two worlds that the plugin will process and not all.\
 \
 processing-interval: Define the processing rate in ticks\
-For example, processing-interval = 5 means for every 5 ticks, try to process ores for all online players.\
+For example, processing-interval = 5 means for every 5 ticks, the plugin processes ores for all online players.\
 \
 debug-level: Will print out debug messages to the console. A higher debug level contains messages from lower levels.\
-Available levels: 0, 1, 2
+Available levels: 0, 1, 2\
+\
+date-format: Specify the date format, currently used for logging.\
+Example: dd/MM/yyy HH:mm:ss, MM/dd/yyy HH:mm:ss
