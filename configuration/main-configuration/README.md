@@ -25,11 +25,11 @@ drop-on-full-storage: Enable this option to drop items from blocks when the stor
 
 enable-mining-stat-on-full-storage: Enable this option to increase mining stat when storage is full. **This should only be enabled if drop-on-full-storage is set to true. Otherwise, the player can increase this stat infinitely.**
 
-disable-offline-processing: Turn off ore processing when the player goes away. It is recommended to turn this on since offline processing does not affect performance at all.
+disable-offline-processing: Turn off ore processing when the player goes away. It is recommended to leave this setting as default (which is false) since offline processing does not affect performance at all.
 
 process-silk-touch-items: By default, the plugin ignores silk-touch items. If you want it to check and process them, set it to true.
 
-item-pickup-radius: With some 3rd plugins, the plugin has to scan nearby drops for auto-pickup feature. This setting determines the scanning radius. This defaults to 3 which is a good-enough setting.
+item-pickup-radius: With some 3rd plugins, the plugin has to scan nearby drops for the auto-pickup feature. This setting determines the scanning radius. This defaults to 3 which is a good enough setting.
 
 ## Accessibility settings
 
