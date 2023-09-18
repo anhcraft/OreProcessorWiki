@@ -29,6 +29,8 @@ disable-offline-processing: Turn off ore processing when the player goes away. I
 
 process-silk-touch-items: By default, the plugin ignores silk-touch items. If you want it to check and process them, set it to true.
 
+item-pickup-radius: With some 3rd plugins, the plugin has to scan nearby drops for auto-pickup feature. This setting determines the scanning radius. This defaults to 3 which is a good-enough setting.
+
 ## Accessibility settings
 
 quick-sell-ratio: Define controls for quick-sell button (Ratio)
