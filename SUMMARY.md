@@ -9,6 +9,7 @@
 * [Permissions](overview/permissions.md)
 * [Placeholders](overview/placeholders.md)
 * [Logging](overview/logging.md)
+* [FAQ](overview/faq.md)
 
 ## Configuration
 

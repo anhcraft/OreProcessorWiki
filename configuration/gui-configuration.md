@@ -22,7 +22,6 @@ components:
     material: black_stained_glass_pane
 ```
 
-**Note**: Currently, Ore Processor does not support HEX Color and placeholders. This will be implemented in future updates!\
 \
 **Example item configuration:**
 
