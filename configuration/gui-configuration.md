@@ -44,11 +44,55 @@ Material list: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.htm
 Enchantment list: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)\
 Item flags: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
 
-**Example skull configuration:**
+## Item Meta
 
-```
+```yaml
 material: player_head
-metaType: skull
-skullOwner: "notch"
-skullTexture: "http://textures.minecraft.net/texture/ab8325da1f1a58e662eb1b5f58b0dbf6a7b99ec7c19f2e9c4284c7546829522d"
+# Other general item settings...
+meta:
+  type: skull # <===========
+  # Other item meta settings...
 ```
+
+### Skull
+
+```yaml
+material: player_head
+meta:
+  type: skull
+  skull-texture: "6e2be91f04579a924a20a0585b8addac8ec790c97f005333a47ed983554c6ea"
+```
+
+The skull texture is an identifier at the tail of the skin URL pointing to Mojang's server such as [https://textures.minecraft.net/texture/**6e2be91f04579a924a20a0585b8addac8ec790c97f005333a47ed983554c6ea**](https://textures.minecraft.net/texture/6e2be91f04579a924a20a0585b8addac8ec790c97f005333a47ed983554c6ea)
+
+It is possible to use the URL. However, I won't recommend it since that is too long
+
+### Banner
+
+<pre class="language-yaml"><code class="lang-yaml"><strong>material: white_banner
+</strong>meta:
+    type: banner
+    banner-patterns:
+    - pattern: bricks
+        color: gray
+    - pattern: mojang
+        color: red
+</code></pre>
+
+Pattern type: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/banner/PatternType.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/banner/PatternType.html)
+
+Dye color: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html)
+
+### Armor
+
+```yaml
+material: diamond_chestplate
+meta:
+    type: armor
+    trim-material: quartz
+    trim-pattern: dune
+```
+
+Trim pattern: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimPattern.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimPattern.html)
+
+Trim material: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimMaterial.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/meta/trim/TrimMaterial.html)
